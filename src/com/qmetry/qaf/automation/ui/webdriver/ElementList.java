@@ -99,7 +99,7 @@ public class ElementList<T extends QAFWebElement> extends ArrayList<T> {
 					public Boolean apply(QAFExtendedWebDriver driver) {
 						try {
 							clear();
-							addAll((Collection<T>) context.findElements(by));
+							//addAll((Collection<T>) context.findElements(by));
 							return size() > index;
 						} catch (WebDriverException e) {
 							return false;
