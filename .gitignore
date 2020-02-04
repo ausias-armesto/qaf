@@ -7,3 +7,5 @@
 /test-output/
 /img
 /dependencies
+target/
+*.iml
